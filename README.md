@@ -13,18 +13,25 @@
 
 **Generals**
 - Build Systems: Gulp
-  - autoprefixer, sourcemaps, eslint, browserSync, useref, uglify, cssnano, htmlmin, nodemon, wiredep, main-bower-files...
+  - `autoprefixer`, `sourcemaps`, `eslint`, `browserSync`, `useref`, `uglify`, `cssnano`, `htmlmin`, `nodemon`, `wiredep`, `main-bower-files`...
 
 **Front-end**
-- bootstrap
-- jquery
-- bower
+- `bootstrap`
+- `jquery`
+- `bower`
 
 **Back-end**
-- Express
-- Database: MongoDB
+- `Express`
+- Database: `MongoDB`
+
+## Preinstall
+
+- Install NodeJS, Bower, Gulp
+- Clone source code from [WebAppFullstack](WebAppFullstack)
+- `npm install`
+- `bower install`
 
 ## Build & Run:
-- _**gulp**_ - build dist
-- _**gulp serve**_ - run in development mode, view _localhost:9000_
-- _**gulp serve:dist**_ - run in production mode, view _localhost:8080_
+- `gulp` - build dist
+- `gulp serve` - run in development mode, view _localhost:9000_
+- `gulp serve:dist` - run in production mode, view _localhost:8080_
