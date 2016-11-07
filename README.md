@@ -27,7 +27,7 @@
 ## Preinstall
 
 - Install NodeJS, Bower, Gulp
-- Clone source code from [WebAppFullstack](WebAppFullstack)
+- Clone source code from [WebAppFullstack](https://github.com/cuong-nguyen-thanh/WebAppFullstack)
 - `npm install`
 - `bower install`
 
