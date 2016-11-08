@@ -9,6 +9,9 @@ var app = express();
 var server = http.createServer(app);
 require('./config/express')(app);
 
+// config routes
+require('./routes')(app);
+
 // Start server
 server.listen(config.port, config.ip, function() {
     console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
