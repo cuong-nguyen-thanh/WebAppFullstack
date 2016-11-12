@@ -1,10 +1,15 @@
 'use strict';
 
 var express = require('express');
-var controller = require('./auth.controller');
+var User = require('../user/user.model');
+
+// Passport Configuration
+require('./local/passport')(User);
+require('./facebook/passport')(User);
 
 var router = express.Router();
 
-router.post('/login', controller.login);
+router.use('/local', require('./local'));
+router.use('/facebook', require('./facebook'));
 
 module.exports = router;
